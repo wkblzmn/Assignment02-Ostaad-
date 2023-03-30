@@ -1,0 +1,60 @@
+body {
+	font-family: 'Space Mono', monospace;
+	background-image: url('https://images.unsplash.com/photo-1535078721683-bf467f214f64');
+	background-size: cover;
+	background-position: center;
+  }
+  
+  .container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	border-radius: 10px;
+	margin-top: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+  }
+  
+  label {
+	margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f1f1f1;
+	margin-bottom: 20px;
+  }
+  
+  button {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #961e00;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+	background-color: #bd654f;
+  }
+  
+  #result {
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+  }
+  
